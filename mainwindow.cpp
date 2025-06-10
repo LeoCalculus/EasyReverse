@@ -43,12 +43,14 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QWidget::setWindowTitle("Easy Reverse");
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
+
 
 void MainWindow::on_btnGetHandle_clicked()
 {
@@ -71,6 +73,7 @@ void MainWindow::on_btnGetHandle_clicked()
     LPCSTR gameProcess = resultTarget.c_str();
     HWND target = FindWindowA(NULL, gameProcess);
     if (target == NULL) {
+        QWidget::setWindowTitle("Easy Reverse : Error");
         MessageBoxW(myHandle, L"Error! Could not find the process handle!", L"Error", MB_OK | MB_ICONERROR);
         return;
     }
