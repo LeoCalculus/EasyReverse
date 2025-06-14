@@ -44,6 +44,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     QWidget::setWindowTitle("Easy Reverse");
+    setAttribute(Qt::WA_TranslucentBackground);
 }
 
 MainWindow::~MainWindow()
