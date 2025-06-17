@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Repos\EasyReverse\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Repos\EasyReverse\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Code\cpp\Repos\EasyReverse\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\CMakeFiles\1f43798cad94fcd0e955edacccfdf386\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Code\cpp\Repos\EasyReverse\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Code\cpp\Repos\EasyReverse\mainwindow.ui" />
+    <None Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\autouic_Debug.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\autouic_Release.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\autouic_MinSizeRel.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\Code\cpp\Repos\EasyReverse\cmake-build-debug\EasyReverse_autogen\autouic_RelWithDebInfo.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AEDACF53-0C7F-332E-83A6-E723F314D1A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{41E0B60B-36AD-356D-B379-3451894AFAF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{30893EAC-57BE-3AB3-8246-4A0CB00B19D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{84620F80-6DE6-38CC-9259-79626A59FFB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

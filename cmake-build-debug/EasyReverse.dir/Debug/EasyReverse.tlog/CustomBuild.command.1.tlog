@@ -1,0 +1,22 @@
+^D:\CODE\CPP\REPOS\EASYREVERSE\CMAKE-BUILD-DEBUG\CMAKEFILES\1F43798CAD94FCD0E955EDACCCFDF386\AUTOUIC_(CONFIG).STAMP.RULE
+setlocal
+cd D:\Code\cpp\Repos\EasyReverse\cmake-build-debug
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\CPP\REPOS\EASYREVERSE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\JetBrains\CLion 2025.1.2\bin\cmake\win\x64\bin\cmake.exe" -SD:/Code/cpp/Repos/EasyReverse -BD:/Code/cpp/Repos/EasyReverse/cmake-build-debug --check-stamp-file D:/Code/cpp/Repos/EasyReverse/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
