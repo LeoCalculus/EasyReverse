@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b08d92c0975293499e67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EasyReverse",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EasyReverse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EasyReverse-Debug-e04b915d7950a51b5c46.json",
+					"name" : "EasyReverse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EasyReverse_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EasyReverse_autogen-Debug-8ef352611ff5baa5f48f.json",
+					"name" : "EasyReverse_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EasyReverse_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EasyReverse_autogen_timestamp_deps-Debug-8a4f127eabf7873ec01c.json",
+					"name" : "EasyReverse_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Code/cpp/Repos/EasyReverse/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Debug",
+		"source" : "D:/Code/cpp/Repos/EasyReverse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
