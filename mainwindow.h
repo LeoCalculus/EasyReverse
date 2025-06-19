@@ -7,13 +7,7 @@
 #include <winuser.h>
 #endif
 
-#include <iostream>
-#include <iostream>
-#include <memory>
-#include <stdexcept>
-#include <string>
-#include <array>
-#include <vector>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
